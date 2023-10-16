@@ -2,6 +2,7 @@
     width:350px;
     min-height:230px;
     margin:5px ;
+    position:relative;
 }
 .picture{
     width:350px;
@@ -70,10 +71,12 @@ a{
     color: white;
 }
 .emoji{
-    position:relative;
+    position:absolute;
+    right:0;
+    z-index: 10;
 }
 .icon{
-    position:absolute;
+    position:relative;
     right:5px;
     top:12px;
 }
